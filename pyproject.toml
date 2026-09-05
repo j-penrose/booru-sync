@@ -1,0 +1,17 @@
+[project]
+name = "booru-sync"
+version = "0.1.0"
+description = "Pull tags, aliases and implication form Danbooru and add them to a Blombooru instance"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.5",
+]
+
+[tool.ruff]
+line-length = 120
